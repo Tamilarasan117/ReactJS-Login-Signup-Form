@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.signUpCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    height: 100vh;
+}
+.signUpCard {
+    background-color: white;
+    width: 25%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #fff;
+}
+.logoCard {
+    text-align: center;
+}
+.appLogo {
+    min-width: 100px;
+    max-width: 120px;
+}
+.signHead {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 187, 193, 0.751);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.signUpFormCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.loginButCard {
+    text-align: center;
+}
+.link {
+    margin-left: 7px;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .appLogo {
+        animation: Applogospin infinite 10s linear;
+    }
+}
+@keyframes Applogospin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
